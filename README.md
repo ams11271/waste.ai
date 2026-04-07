@@ -1,4 +1,4 @@
-# waste.ai — Deep Learning Waste Classification
+# Waste.ai — Deep Learning Waste Classification
 
 An end-to-end computer vision system that classifies waste materials into **6 recyclable categories** using transfer learning with PyTorch. Trained on ~2,500 labeled images, the model enables automated sorting for smarter recycling and waste management.
 
@@ -6,7 +6,7 @@ An end-to-end computer vision system that classifies waste materials into **6 re
 
 ## The Problem
 
-Contaminated recycling streams are one of the biggest obstacles in waste management — a single misclassified item can ruin an entire batch. Manual sorting is slow, expensive, and error-prone. **waste.ai** automates this process using deep learning to classify waste from images in real time.
+Contaminated recycling streams are one of the biggest obstacles in waste management — a single misclassified item can ruin an entire batch. Manual sorting is slow, expensive, and error-prone. **Waste.ai** automates this process using deep learning to classify waste from images in real time.
 
 ---
 
@@ -73,7 +73,7 @@ Contaminated recycling streams are one of the biggest obstacles in waste managem
 ## Project Structure
 
 ```
-waste.ai/
+Waste.ai/
 ├── garbage_classification.ipynb    # Primary training notebook (256x256 images)
 ├── Pytorch.ipynb                   # Transfer learning experiments
 ├── Pytorch copy 2.ipynb            # Architecture iteration (128x128 images)
@@ -96,8 +96,8 @@ waste.ai/
 
 ```bash
 # Clone the repository
-git clone https://github.com/ams11271/waste.ai.git
-cd waste.ai
+git clone https://github.com/ams11271/Waste.ai.git
+cd Waste.ai
 
 # Install dependencies
 pip install torch torchvision matplotlib jupyter
